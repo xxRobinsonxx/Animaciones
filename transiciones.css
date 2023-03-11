@@ -30,11 +30,14 @@ section img {
     object-fit: cover;
     opacity: .8;
     transition:  .5s ease ;
-    border: 1px solid #fff;
+   
 }
 
 section img:hover {
     cursor: grab;
     width: 300px;
     filter: contrast(120%);
+    border: 2px solid #fff;
+    border-radius: 15px;
+    margin-left: 5px;
 }
